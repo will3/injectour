@@ -1,14 +1,33 @@
 {
   "name": "injectour",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A lightweight dependency injector",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Will Zhou <will3.git@gmail.com> (http://github.com/will3)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/will3/injectour.git"
+  },
+  "keywords": [
+    "DI",
+    "Dependency",
+    "Injection"
+  ],
+  "bugs": {
+    "url": "https://github.com/will3/injectour/issues"
+  },
+  "homepage": "https://github.com/will3/injectour#readme"
 }

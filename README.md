@@ -20,7 +20,7 @@ Pass true to cache the result, effectively binding the dependency as a singleton
 ### Examples:
 
 ```javascript
-var injector = require('injectool')();
+var injector = require('injectour')();
 
 //bind depedencies
 injector.bind('dep1', ...);
