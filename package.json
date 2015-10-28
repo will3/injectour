@@ -1,6 +1,6 @@
 {
   "name": "injectour",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight dependency injector",
   "main": "index.js",
   "scripts": {
