@@ -1,3 +1,4 @@
 module.exports = function() {
-  return new require('./injector.js')();
-}
+  var Injector = require('./injector');
+  return new Injector();
+};
